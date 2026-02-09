@@ -12,6 +12,45 @@
 		B1000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1000003 /* Assets.xcassets */; };
 		B1000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1000004 /* Preview Assets.xcassets */; };
 		B1000010 /* SPCToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000010 /* SPCToolsTests.swift */; };
+		B1000020 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000020 /* AppConstants.swift */; };
+		B1000021 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000021 /* AppTheme.swift */; };
+		B1000022 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000022 /* SubscriptionManager.swift */; };
+		B1000023 /* CalculationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000023 /* CalculationCategory.swift */; };
+		B1000024 /* CalculationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000024 /* CalculationRecord.swift */; };
+		B1000025 /* QualityUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000025 /* QualityUnit.swift */; };
+		B1000026 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000026 /* InputFieldView.swift */; };
+		B1000027 /* ResultCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000027 /* ResultCardView.swift */; };
+		B1000028 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000028 /* CalculateButton.swift */; };
+		B1000029 /* ProBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000029 /* ProBadgeView.swift */; };
+		B100002A /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100002A /* DataInputView.swift */; };
+		B100002B /* Double+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100002B /* Double+Formatting.swift */; };
+		B100002C /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100002C /* View+HideKeyboard.swift */; };
+		B1000030 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000030 /* HomeViewModel.swift */; };
+		B1000031 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000031 /* HistoryViewModel.swift */; };
+		B1000032 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000032 /* HomeView.swift */; };
+		B1000033 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000033 /* CategoryCardView.swift */; };
+		B1000034 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000034 /* HistoryListView.swift */; };
+		B1000035 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000035 /* HistoryRowView.swift */; };
+		B1000036 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000036 /* SettingsView.swift */; };
+		B1000037 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000037 /* SearchBarView.swift */; };
+		B1000060 /* CpCpkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000060 /* CpCpkEngine.swift */; };
+		B1000061 /* OEEEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000061 /* OEEEngine.swift */; };
+		B1000042 /* SigmaLevelEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000042 /* SigmaLevelEngine.swift */; };
+		B1000043 /* SampleSizeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000043 /* SampleSizeEngine.swift */; };
+		B1000044 /* CpCpkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000044 /* CpCpkViewModel.swift */; };
+		B1000045 /* OEEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000045 /* OEEViewModel.swift */; };
+		B1000046 /* SigmaLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000046 /* SigmaLevelViewModel.swift */; };
+		B1000047 /* SampleSizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000047 /* SampleSizeViewModel.swift */; };
+		B1000048 /* CpCpkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000048 /* CpCpkView.swift */; };
+		B1000049 /* OEEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000049 /* OEEView.swift */; };
+		B100004A /* SigmaLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100004A /* SigmaLevelView.swift */; };
+		B100004B /* SampleSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100004B /* SampleSizeView.swift */; };
+		B100004C /* FormulaReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100004C /* FormulaReferenceView.swift */; };
+		B1000050 /* CpCpkEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000050 /* CpCpkEngineTests.swift */; };
+		B1000051 /* OEEEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000051 /* OEEEngineTests.swift */; };
+		B1000052 /* SigmaLevelEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000052 /* SigmaLevelEngineTests.swift */; };
+		B1000053 /* SampleSizeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000053 /* SampleSizeEngineTests.swift */; };
+		B1000070 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C1000070 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +71,45 @@
 		C1000005 /* SPCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1000010 /* SPCToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCToolsTests.swift; sourceTree = "<group>"; };
 		C1000011 /* SPCToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPCToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1000020 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		C1000021 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		C1000022 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		C1000023 /* CalculationCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCategory.swift; sourceTree = "<group>"; };
+		C1000024 /* CalculationRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationRecord.swift; sourceTree = "<group>"; };
+		C1000025 /* QualityUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityUnit.swift; sourceTree = "<group>"; };
+		C1000026 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
+		C1000027 /* ResultCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCardView.swift; sourceTree = "<group>"; };
+		C1000028 /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		C1000029 /* ProBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProBadgeView.swift; sourceTree = "<group>"; };
+		C100002A /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
+		C100002B /* Double+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Formatting.swift"; sourceTree = "<group>"; };
+		C100002C /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
+		C1000030 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C1000031 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		C1000032 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1000033 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		C1000034 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		C1000035 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		C1000036 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1000037 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C1000060 /* CpCpkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkEngine.swift; sourceTree = "<group>"; };
+		C1000061 /* OEEEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEEngine.swift; sourceTree = "<group>"; };
+		C1000042 /* SigmaLevelEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelEngine.swift; sourceTree = "<group>"; };
+		C1000043 /* SampleSizeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeEngine.swift; sourceTree = "<group>"; };
+		C1000044 /* CpCpkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkViewModel.swift; sourceTree = "<group>"; };
+		C1000045 /* OEEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEViewModel.swift; sourceTree = "<group>"; };
+		C1000046 /* SigmaLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelViewModel.swift; sourceTree = "<group>"; };
+		C1000047 /* SampleSizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeViewModel.swift; sourceTree = "<group>"; };
+		C1000048 /* CpCpkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkView.swift; sourceTree = "<group>"; };
+		C1000049 /* OEEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEView.swift; sourceTree = "<group>"; };
+		C100004A /* SigmaLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelView.swift; sourceTree = "<group>"; };
+		C100004B /* SampleSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeView.swift; sourceTree = "<group>"; };
+		C100004C /* FormulaReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaReferenceView.swift; sourceTree = "<group>"; };
+		C1000050 /* CpCpkEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkEngineTests.swift; sourceTree = "<group>"; };
+		C1000051 /* OEEEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEEngineTests.swift; sourceTree = "<group>"; };
+		C1000052 /* SigmaLevelEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelEngineTests.swift; sourceTree = "<group>"; };
+		C1000053 /* SampleSizeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeEngineTests.swift; sourceTree = "<group>"; };
+		C1000070 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				C1000001 /* SPCToolsApp.swift */,
+				C1000020 /* AppConstants.swift */,
+				C1000021 /* AppTheme.swift */,
+				C1000022 /* SubscriptionManager.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -98,6 +179,9 @@
 		D1000005 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C1000023 /* CalculationCategory.swift */,
+				C1000024 /* CalculationRecord.swift */,
+				C1000025 /* QualityUnit.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,6 +189,10 @@
 		D1000006 /* Engines */ = {
 			isa = PBXGroup;
 			children = (
+				C1000060 /* CpCpkEngine.swift */,
+				C1000061 /* OEEEngine.swift */,
+				C1000042 /* SigmaLevelEngine.swift */,
+				C1000043 /* SampleSizeEngine.swift */,
 			);
 			path = Engines;
 			sourceTree = "<group>";
@@ -112,6 +200,12 @@
 		D1000007 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C1000030 /* HomeViewModel.swift */,
+				C1000031 /* HistoryViewModel.swift */,
+				C1000044 /* CpCpkViewModel.swift */,
+				C1000045 /* OEEViewModel.swift */,
+				C1000046 /* SigmaLevelViewModel.swift */,
+				C1000047 /* SampleSizeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -120,13 +214,93 @@
 			isa = PBXGroup;
 			children = (
 				C1000002 /* ContentView.swift */,
+				D100000D /* Home */,
+				D100000E /* History */,
+				D100000F /* Settings */,
+				D1000010 /* CpCpk */,
+				D1000011 /* OEE */,
+				D1000012 /* SigmaLevel */,
+				D1000013 /* SampleSize */,
+				D1000014 /* FormulaReference */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D100000D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1000032 /* HomeView.swift */,
+				C1000033 /* CategoryCardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D100000E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				C1000034 /* HistoryListView.swift */,
+				C1000035 /* HistoryRowView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		D100000F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C1000036 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D1000010 /* CpCpk */ = {
+			isa = PBXGroup;
+			children = (
+				C1000048 /* CpCpkView.swift */,
+			);
+			path = CpCpk;
+			sourceTree = "<group>";
+		};
+		D1000011 /* OEE */ = {
+			isa = PBXGroup;
+			children = (
+				C1000049 /* OEEView.swift */,
+			);
+			path = OEE;
+			sourceTree = "<group>";
+		};
+		D1000012 /* SigmaLevel */ = {
+			isa = PBXGroup;
+			children = (
+				C100004A /* SigmaLevelView.swift */,
+			);
+			path = SigmaLevel;
+			sourceTree = "<group>";
+		};
+		D1000013 /* SampleSize */ = {
+			isa = PBXGroup;
+			children = (
+				C100004B /* SampleSizeView.swift */,
+			);
+			path = SampleSize;
+			sourceTree = "<group>";
+		};
+		D1000014 /* FormulaReference */ = {
+			isa = PBXGroup;
+			children = (
+				C100004C /* FormulaReferenceView.swift */,
+			);
+			path = FormulaReference;
 			sourceTree = "<group>";
 		};
 		D1000009 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C1000026 /* InputFieldView.swift */,
+				C1000027 /* ResultCardView.swift */,
+				C1000028 /* CalculateButton.swift */,
+				C1000029 /* ProBadgeView.swift */,
+				C100002A /* DataInputView.swift */,
+				C1000037 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -134,6 +308,8 @@
 		D100000A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C100002B /* Double+Formatting.swift */,
+				C100002C /* View+HideKeyboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +317,7 @@
 		D100000B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1000070 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,6 +334,10 @@
 			isa = PBXGroup;
 			children = (
 				C1000010 /* SPCToolsTests.swift */,
+				C1000050 /* CpCpkEngineTests.swift */,
+				C1000051 /* OEEEngineTests.swift */,
+				C1000052 /* SigmaLevelEngineTests.swift */,
+				C1000053 /* SampleSizeEngineTests.swift */,
 			);
 			path = SPCToolsTests;
 			sourceTree = "<group>";
@@ -224,6 +405,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				tr,
 				Base,
 			);
 			mainGroup = D1000001 /* root */;
@@ -244,6 +426,7 @@
 			files = (
 				B1000004 /* Preview Assets.xcassets in Resources */,
 				B1000003 /* Assets.xcassets in Resources */,
+				B1000070 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +446,40 @@
 			files = (
 				B1000001 /* SPCToolsApp.swift in Sources */,
 				B1000002 /* ContentView.swift in Sources */,
+				B1000020 /* AppConstants.swift in Sources */,
+				B1000021 /* AppTheme.swift in Sources */,
+				B1000022 /* SubscriptionManager.swift in Sources */,
+				B1000023 /* CalculationCategory.swift in Sources */,
+				B1000024 /* CalculationRecord.swift in Sources */,
+				B1000025 /* QualityUnit.swift in Sources */,
+				B1000026 /* InputFieldView.swift in Sources */,
+				B1000027 /* ResultCardView.swift in Sources */,
+				B1000028 /* CalculateButton.swift in Sources */,
+				B1000029 /* ProBadgeView.swift in Sources */,
+				B100002A /* DataInputView.swift in Sources */,
+				B100002B /* Double+Formatting.swift in Sources */,
+				B100002C /* View+HideKeyboard.swift in Sources */,
+				B1000030 /* HomeViewModel.swift in Sources */,
+				B1000031 /* HistoryViewModel.swift in Sources */,
+				B1000032 /* HomeView.swift in Sources */,
+				B1000033 /* CategoryCardView.swift in Sources */,
+				B1000034 /* HistoryListView.swift in Sources */,
+				B1000035 /* HistoryRowView.swift in Sources */,
+				B1000036 /* SettingsView.swift in Sources */,
+				B1000037 /* SearchBarView.swift in Sources */,
+				B1000060 /* CpCpkEngine.swift in Sources */,
+				B1000061 /* OEEEngine.swift in Sources */,
+				B1000042 /* SigmaLevelEngine.swift in Sources */,
+				B1000043 /* SampleSizeEngine.swift in Sources */,
+				B1000044 /* CpCpkViewModel.swift in Sources */,
+				B1000045 /* OEEViewModel.swift in Sources */,
+				B1000046 /* SigmaLevelViewModel.swift in Sources */,
+				B1000047 /* SampleSizeViewModel.swift in Sources */,
+				B1000048 /* CpCpkView.swift in Sources */,
+				B1000049 /* OEEView.swift in Sources */,
+				B100004A /* SigmaLevelView.swift in Sources */,
+				B100004B /* SampleSizeView.swift in Sources */,
+				B100004C /* FormulaReferenceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +488,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1000010 /* SPCToolsTests.swift in Sources */,
+				B1000050 /* CpCpkEngineTests.swift in Sources */,
+				B1000051 /* OEEEngineTests.swift in Sources */,
+				B1000052 /* SigmaLevelEngineTests.swift in Sources */,
+				B1000053 /* SampleSizeEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

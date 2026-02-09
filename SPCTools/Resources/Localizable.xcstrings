@@ -1,0 +1,714 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "accessibility.addFavorite" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add to favorites" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Favorilere ekle" } }
+      }
+    },
+    "accessibility.clearSearch" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear search" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Aramayı temizle" } }
+      }
+    },
+    "accessibility.empty" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Empty" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Boş" } }
+      }
+    },
+    "accessibility.fillFieldsFirst" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fill in all fields first" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Önce tüm alanları doldurun" } }
+      }
+    },
+    "accessibility.removeFavorite" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Remove from favorites" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Favorilerden kaldır" } }
+      }
+    },
+    "accessibility.searchField" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search field" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Arama alanı" } }
+      }
+    },
+    "accessibility.tapToCalculate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap to calculate" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesaplamak için dokunun" } }
+      }
+    },
+    "action.calculate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Calculate" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesapla" } }
+      }
+    },
+    "action.cancel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "İptal" } }
+      }
+    },
+    "action.delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sil" } }
+      }
+    },
+    "action.saveHistory" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save to History" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Geçmişe Kaydet" } }
+      }
+    },
+    "app.title" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SPC Tools" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "SPC Tools" } }
+      }
+    },
+    "category.alphaBeta" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Type I / II Error" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Tip I / II Hata" } }
+      }
+    },
+    "category.alphaBeta.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Alpha/Beta risk & power analysis" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Alfa/Beta risk ve güç analizi" } }
+      }
+    },
+    "category.aqlTable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AQL Table" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "AQL Tablosu" } }
+      }
+    },
+    "category.aqlTable.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "ISO 2859-1 sampling plans" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ISO 2859-1 örnekleme planları" } }
+      }
+    },
+    "category.controlChart" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Control Charts" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kontrol Kartları" } }
+      }
+    },
+    "category.controlChart.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "X-bar R, I-MR charts" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "X-bar R, I-MR kartları" } }
+      }
+    },
+    "category.cpCpk" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cp / Cpk" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Cp / Cpk" } }
+      }
+    },
+    "category.cpCpk.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Process capability index" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Proses yetenek indeksi" } }
+      }
+    },
+    "category.fmea" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "FMEA" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "FMEA" } }
+      }
+    },
+    "category.fmea.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Risk Priority Number (RPN)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Risk Öncelik Sayısı (RPN)" } }
+      }
+    },
+    "category.formulaReference" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Formula Reference" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Formül Referansı" } }
+      }
+    },
+    "category.formulaReference.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quick-access formula library" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hızlı erişim formül kütüphanesi" } }
+      }
+    },
+    "category.gageRR" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Gage R&R" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Gage R&R" } }
+      }
+    },
+    "category.gageRR.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measurement System Analysis" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ölçüm Sistemi Analizi" } }
+      }
+    },
+    "category.histogram" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Histogram" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Histogram" } }
+      }
+    },
+    "category.histogram.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Frequency distribution" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Frekans dağılımı" } }
+      }
+    },
+    "category.hypothesisTest" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hypothesis Test" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hipotez Testi" } }
+      }
+    },
+    "category.hypothesisTest.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "t-test, z-test" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "t-test, z-test" } }
+      }
+    },
+    "category.ishikawa" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ishikawa Diagram" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Balık Kılçığı" } }
+      }
+    },
+    "category.ishikawa.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fishbone cause & effect" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sebep-sonuç diyagramı" } }
+      }
+    },
+    "category.oee" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OEE" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "OEE" } }
+      }
+    },
+    "category.oee.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overall Equipment Effectiveness" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Toplam Ekipman Etkinliği" } }
+      }
+    },
+    "category.pareto" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pareto Analysis" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Pareto Analizi" } }
+      }
+    },
+    "category.pareto.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "80/20 rule analysis" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "80/20 kuralı analizi" } }
+      }
+    },
+    "category.ppPpk" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pp / Ppk" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Pp / Ppk" } }
+      }
+    },
+    "category.ppPpk.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Process performance index" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Proses performans indeksi" } }
+      }
+    },
+    "category.sampleSize" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sample Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Örneklem Büyüklüğü" } }
+      }
+    },
+    "category.sampleSize.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Calculate required sample size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Gerekli örneklem büyüklüğü" } }
+      }
+    },
+    "category.sigmaLevel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sigma Level" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sigma Seviyesi" } }
+      }
+    },
+    "category.sigmaLevel.subtitle" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "DPMO ↔ Sigma conversion" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "DPMO ↔ Sigma dönüşümü" } }
+      }
+    },
+    "cpCpk.interpretation.capable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Capable (Cpk ≥ 1.33)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Yeterli (Cpk ≥ 1.33)" } }
+      }
+    },
+    "cpCpk.interpretation.excellent" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Excellent (Cpk ≥ 2.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Mükemmel (Cpk ≥ 2.0)" } }
+      }
+    },
+    "cpCpk.interpretation.good" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Good (Cpk ≥ 1.67)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "İyi (Cpk ≥ 1.67)" } }
+      }
+    },
+    "cpCpk.interpretation.incapable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Incapable (Cpk < 1.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Yetersiz (Cpk < 1.0)" } }
+      }
+    },
+    "cpCpk.interpretation.marginal" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Marginal (Cpk ≥ 1.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sınırda (Cpk ≥ 1.0)" } }
+      }
+    },
+    "cpCpk.lsl" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "LSL (Lower Spec Limit)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ASL (Alt Spek Limiti)" } }
+      }
+    },
+    "cpCpk.mean" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mean (X̄)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ortalama (X̄)" } }
+      }
+    },
+    "cpCpk.sigma" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sigma (σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sigma (σ)" } }
+      }
+    },
+    "cpCpk.usl" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "USL (Upper Spec Limit)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ÜSL (Üst Spek Limiti)" } }
+      }
+    },
+    "dataInput.clear" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Temizle" } }
+      }
+    },
+    "dataInput.count %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld values" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "%lld değer" } }
+      }
+    },
+    "formula.availability" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Availability = (Planned Time - Downtime) / Planned Time × 100" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kullanılabilirlik = (Planlı Süre - Duruş Süresi) / Planlı Süre × 100" } }
+      }
+    },
+    "formula.controlCharts" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "UCL = X̄ + A₂R̄\nLCL = X̄ - A₂R̄\nCL = X̄" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ÜKL = X̄ + A₂R̄\nAKL = X̄ - A₂R̄\nMÇ = X̄" } }
+      }
+    },
+    "formula.finiteCorrection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "n_adj = n / (1 + (n-1)/N)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "n_düz = n / (1 + (n-1)/N)" } }
+      }
+    },
+    "formula.performance" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Performance = (Ideal Cycle Time × Total Count) / Run Time × 100" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Performans = (İdeal Çevrim Süresi × Toplam Adet) / Çalışma Süresi × 100" } }
+      }
+    },
+    "formula.quality" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quality = (Total Count - Defect Count) / Total Count × 100" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kalite = (Toplam Adet - Hatalı Adet) / Toplam Adet × 100" } }
+      }
+    },
+    "formula.sigmaLevel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "DPMO = (Defects / (Units × Opportunities)) × 1,000,000\nSigma = InvNorm(1 - DPMO/1,000,000) + 1.5" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "DPMO = (Hatalar / (Birimler × Fırsatlar)) × 1.000.000\nSigma = InvNorm(1 - DPMO/1.000.000) + 1,5" } }
+      }
+    },
+    "history.deleteAll" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete All History?" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Tüm Geçmiş Silinsin mi?" } }
+      }
+    },
+    "history.empty" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No History" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Geçmiş Yok" } }
+      }
+    },
+    "history.emptyDescription" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your calculation history will appear here" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesaplama geçmişiniz burada görünecek" } }
+      }
+    },
+    "history.filter" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Filter" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Filtre" } }
+      }
+    },
+    "history.filter.all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Tümü" } }
+      }
+    },
+    "history.filter.favorites" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Favorites" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Favoriler" } }
+      }
+    },
+    "history.noFavorites" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No Favorites" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Favori Yok" } }
+      }
+    },
+    "history.noFavoritesDescription" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap the star icon to save calculations as favorites" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesaplamaları favorilere eklemek için yıldız simgesine dokunun" } }
+      }
+    },
+    "oee.availability" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Availability" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kullanılabilirlik" } }
+      }
+    },
+    "oee.defectCount" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Defect Count" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hatalı Adet" } }
+      }
+    },
+    "oee.downtime" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Downtime" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Duruş Süresi" } }
+      }
+    },
+    "oee.history.input %@ %@ %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Planned: %1$@ min, Down: %2$@ min, Count: %3$@" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Planlı: %1$@ dk, Duruş: %2$@ dk, Adet: %3$@" } }
+      }
+    },
+    "oee.idealCycleTime" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ideal Cycle Time" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "İdeal Çevrim Süresi" } }
+      }
+    },
+    "oee.interpretation.low" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Low - Improvement needed" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Düşük - İyileştirme gerekli" } }
+      }
+    },
+    "oee.interpretation.typical" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Typical - Room for improvement" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Tipik - İyileştirme alanı var" } }
+      }
+    },
+    "oee.interpretation.veryLow" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Very Low - Immediate action needed" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Çok Düşük - Acil müdahale gerekli" } }
+      }
+    },
+    "oee.interpretation.worldClass" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "World Class (≥85%)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Dünya Sınıfı (≥%85)" } }
+      }
+    },
+    "oee.performance" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Performance" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Performans" } }
+      }
+    },
+    "oee.plannedTime" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Planned Production Time" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Planlı Üretim Süresi" } }
+      }
+    },
+    "oee.quality" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quality" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kalite" } }
+      }
+    },
+    "oee.totalCount" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Total Count" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Toplam Adet" } }
+      }
+    },
+    "paywall.restore" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restore Purchases" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Satın Alımları Geri Yükle" } }
+      }
+    },
+    "sampleSize.adjusted" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Adjusted (finite)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Düzeltilmiş (sonlu)" } }
+      }
+    },
+    "sampleSize.confidence" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Confidence Level" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Güven Düzeyi" } }
+      }
+    },
+    "sampleSize.history.input %lld%% %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Confidence: %1$lld%%, Margin: %2$@" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Güven: %%%1$lld, Hata payı: %2$@" } }
+      }
+    },
+    "sampleSize.marginOfError" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Margin of Error" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hata Payı" } }
+      }
+    },
+    "sampleSize.optional" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "(optional)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "(opsiyonel)" } }
+      }
+    },
+    "sampleSize.population" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Population Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Popülasyon Büyüklüğü" } }
+      }
+    },
+    "sampleSize.proportion" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Expected Proportion (p)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Beklenen Oran (p)" } }
+      }
+    },
+    "sampleSize.result" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Required Sample Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Gerekli Örneklem Büyüklüğü" } }
+      }
+    },
+    "sampleSize.unit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "samples" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "örneklem" } }
+      }
+    },
+    "search.placeholder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Search calculators..." } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesaplayıcı ara..." } }
+      }
+    },
+    "settings.about" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hakkında" } }
+      }
+    },
+    "settings.calculators" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld calculators" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "%lld hesaplayıcı" } }
+      }
+    },
+    "settings.feedback" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Feedback" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Geri Bildirim" } }
+      }
+    },
+    "settings.sendFeedback" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Send Feedback" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Geri Bildirim Gönder" } }
+      }
+    },
+    "settings.status" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Status" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Durum" } }
+      }
+    },
+    "settings.status.free" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Free" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ücretsiz" } }
+      }
+    },
+    "settings.status.pro" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "PRO" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "PRO" } }
+      }
+    },
+    "settings.status.trial %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Trial (%lld days left)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Deneme (%lld gün kaldı)" } }
+      }
+    },
+    "settings.subscription" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Subscription" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Abonelik" } }
+      }
+    },
+    "settings.version" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Version" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sürüm" } }
+      }
+    },
+    "sigma.defects" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of Defects" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hata Sayısı" } }
+      }
+    },
+    "sigma.history.input %@ %@ %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Defects: %1$@, Units: %2$@, Opportunities: %3$@" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hatalar: %1$@, Birimler: %2$@, Fırsatlar: %3$@" } }
+      }
+    },
+    "sigma.interpretation.average" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Average (3σ - 4σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ortalama (3σ - 4σ)" } }
+      }
+    },
+    "sigma.interpretation.excellent" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Excellent (5σ - 6σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Mükemmel (5σ - 6σ)" } }
+      }
+    },
+    "sigma.interpretation.good" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Good (4σ - 5σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "İyi (4σ - 5σ)" } }
+      }
+    },
+    "sigma.interpretation.poor" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Poor (< 3σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Zayıf (< 3σ)" } }
+      }
+    },
+    "sigma.interpretation.sixSigma" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Six Sigma (6σ) - World Class" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Altı Sigma (6σ) - Dünya Sınıfı" } }
+      }
+    },
+    "sigma.level" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sigma Level" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sigma Seviyesi" } }
+      }
+    },
+    "sigma.opportunities" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Opportunities per Unit" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Birim Başına Fırsat" } }
+      }
+    },
+    "sigma.units" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of Units" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Birim Sayısı" } }
+      }
+    },
+    "subscription.expired.banner" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Upgrade to PRO for all calculators" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Tüm hesaplayıcılar için PRO'ya yükseltin" } }
+      }
+    },
+    "subscription.trial.banner %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Trial: %lld days remaining" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Deneme: %lld gün kaldı" } }
+      }
+    },
+    "tab.calculator" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Calculators" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hesaplayıcılar" } }
+      }
+    },
+    "tab.history" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "History" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Geçmiş" } }
+      }
+    },
+    "tab.settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ayarlar" } }
+      }
+    },
+    "unit.min" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "min" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "dk" } }
+      }
+    },
+    "unit.pcs" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "pcs" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "adet" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
