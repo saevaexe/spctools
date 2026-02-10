@@ -43,10 +43,10 @@ struct ContentView: View {
         case .aqlTable:         AQLTableView()
         case .pareto:           ParetoView()
         case .histogram:        HistogramView()
-        case .fmea:             Text("FMEA") // Placeholder
-        case .ishikawa:         Text("Ishikawa") // Placeholder
-        case .alphaBeta:        Text("Alpha/Beta") // Placeholder
-        case .hypothesisTest:   Text("Hypothesis Test") // Placeholder
+        case .fmea:             FMEAView()
+        case .ishikawa:         IshikawaView()
+        case .alphaBeta:        AlphaBetaView()
+        case .hypothesisTest:   HypothesisTestView()
         }
     }
 }

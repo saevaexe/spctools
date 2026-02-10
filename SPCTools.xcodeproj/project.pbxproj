@@ -75,6 +75,22 @@
 		B1000095 /* AQLEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000095 /* AQLEngineTests.swift */; };
 		B1000096 /* ParetoEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000096 /* ParetoEngineTests.swift */; };
 		B1000097 /* HistogramEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000097 /* HistogramEngineTests.swift */; };
+		B10000A0 /* FMEAEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A0 /* FMEAEngine.swift */; };
+		B10000A1 /* IshikawaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A1 /* IshikawaEngine.swift */; };
+		B10000A2 /* AlphaBetaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A2 /* AlphaBetaEngine.swift */; };
+		B10000A3 /* HypothesisTestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A3 /* HypothesisTestEngine.swift */; };
+		B10000A4 /* FMEAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A4 /* FMEAViewModel.swift */; };
+		B10000A5 /* IshikawaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A5 /* IshikawaViewModel.swift */; };
+		B10000A6 /* AlphaBetaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A6 /* AlphaBetaViewModel.swift */; };
+		B10000A7 /* HypothesisTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A7 /* HypothesisTestViewModel.swift */; };
+		B10000A8 /* FMEAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A8 /* FMEAView.swift */; };
+		B10000A9 /* IshikawaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000A9 /* IshikawaView.swift */; };
+		B10000AA /* AlphaBetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AA /* AlphaBetaView.swift */; };
+		B10000AB /* HypothesisTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AB /* HypothesisTestView.swift */; };
+		B10000AC /* FMEAEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AC /* FMEAEngineTests.swift */; };
+		B10000AD /* IshikawaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AD /* IshikawaEngineTests.swift */; };
+		B10000AE /* AlphaBetaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AE /* AlphaBetaEngineTests.swift */; };
+		B10000AF /* HypothesisTestEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AF /* HypothesisTestEngineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +174,22 @@
 		C1000095 /* AQLEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQLEngineTests.swift; sourceTree = "<group>"; };
 		C1000096 /* ParetoEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParetoEngineTests.swift; sourceTree = "<group>"; };
 		C1000097 /* HistogramEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramEngineTests.swift; sourceTree = "<group>"; };
+		C10000A0 /* FMEAEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAEngine.swift; sourceTree = "<group>"; };
+		C10000A1 /* IshikawaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikawaEngine.swift; sourceTree = "<group>"; };
+		C10000A2 /* AlphaBetaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaEngine.swift; sourceTree = "<group>"; };
+		C10000A3 /* HypothesisTestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestEngine.swift; sourceTree = "<group>"; };
+		C10000A4 /* FMEAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAViewModel.swift; sourceTree = "<group>"; };
+		C10000A5 /* IshikawaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikawaViewModel.swift; sourceTree = "<group>"; };
+		C10000A6 /* AlphaBetaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaViewModel.swift; sourceTree = "<group>"; };
+		C10000A7 /* HypothesisTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestViewModel.swift; sourceTree = "<group>"; };
+		C10000A8 /* FMEAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAView.swift; sourceTree = "<group>"; };
+		C10000A9 /* IshikawaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikawaView.swift; sourceTree = "<group>"; };
+		C10000AA /* AlphaBetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaView.swift; sourceTree = "<group>"; };
+		C10000AB /* HypothesisTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestView.swift; sourceTree = "<group>"; };
+		C10000AC /* FMEAEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMEAEngineTests.swift; sourceTree = "<group>"; };
+		C10000AD /* IshikawaEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikawaEngineTests.swift; sourceTree = "<group>"; };
+		C10000AE /* AlphaBetaEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaEngineTests.swift; sourceTree = "<group>"; };
+		C10000AF /* HypothesisTestEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestEngineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +279,10 @@
 				C1000083 /* AQLEngine.swift */,
 				C1000084 /* ParetoEngine.swift */,
 				C1000085 /* HistogramEngine.swift */,
+				C10000A0 /* FMEAEngine.swift */,
+				C10000A1 /* IshikawaEngine.swift */,
+				C10000A2 /* AlphaBetaEngine.swift */,
+				C10000A3 /* HypothesisTestEngine.swift */,
 			);
 			path = Engines;
 			sourceTree = "<group>";
@@ -266,6 +302,10 @@
 				C1000089 /* AQLViewModel.swift */,
 				C100008A /* ParetoViewModel.swift */,
 				C100008B /* HistogramViewModel.swift */,
+				C10000A4 /* FMEAViewModel.swift */,
+				C10000A5 /* IshikawaViewModel.swift */,
+				C10000A6 /* AlphaBetaViewModel.swift */,
+				C10000A7 /* HypothesisTestViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -288,6 +328,10 @@
 				D1000018 /* AQLTable */,
 				D1000019 /* Pareto */,
 				D100001A /* Histogram */,
+				D100001B /* FMEA */,
+				D100001C /* Ishikawa */,
+				D100001D /* AlphaBeta */,
+				D100001E /* HypothesisTest */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -444,6 +488,38 @@
 			path = Histogram;
 			sourceTree = "<group>";
 		};
+		D100001B /* FMEA */ = {
+			isa = PBXGroup;
+			children = (
+				C10000A8 /* FMEAView.swift */,
+			);
+			path = FMEA;
+			sourceTree = "<group>";
+		};
+		D100001C /* Ishikawa */ = {
+			isa = PBXGroup;
+			children = (
+				C10000A9 /* IshikawaView.swift */,
+			);
+			path = Ishikawa;
+			sourceTree = "<group>";
+		};
+		D100001D /* AlphaBeta */ = {
+			isa = PBXGroup;
+			children = (
+				C10000AA /* AlphaBetaView.swift */,
+			);
+			path = AlphaBeta;
+			sourceTree = "<group>";
+		};
+		D100001E /* HypothesisTest */ = {
+			isa = PBXGroup;
+			children = (
+				C10000AB /* HypothesisTestView.swift */,
+			);
+			path = HypothesisTest;
+			sourceTree = "<group>";
+		};
 		D1000020 /* SPCToolsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +534,10 @@
 				C1000095 /* AQLEngineTests.swift */,
 				C1000096 /* ParetoEngineTests.swift */,
 				C1000097 /* HistogramEngineTests.swift */,
+				C10000AC /* FMEAEngineTests.swift */,
+				C10000AD /* IshikawaEngineTests.swift */,
+				C10000AE /* AlphaBetaEngineTests.swift */,
+				C10000AF /* HypothesisTestEngineTests.swift */,
 			);
 			path = SPCToolsTests;
 			sourceTree = "<group>";
@@ -618,6 +698,18 @@
 				B100008F /* AQLTableView.swift in Sources */,
 				B1000090 /* ParetoView.swift in Sources */,
 				B1000091 /* HistogramView.swift in Sources */,
+				B10000A0 /* FMEAEngine.swift in Sources */,
+				B10000A1 /* IshikawaEngine.swift in Sources */,
+				B10000A2 /* AlphaBetaEngine.swift in Sources */,
+				B10000A3 /* HypothesisTestEngine.swift in Sources */,
+				B10000A4 /* FMEAViewModel.swift in Sources */,
+				B10000A5 /* IshikawaViewModel.swift in Sources */,
+				B10000A6 /* AlphaBetaViewModel.swift in Sources */,
+				B10000A7 /* HypothesisTestViewModel.swift in Sources */,
+				B10000A8 /* FMEAView.swift in Sources */,
+				B10000A9 /* IshikawaView.swift in Sources */,
+				B10000AA /* AlphaBetaView.swift in Sources */,
+				B10000AB /* HypothesisTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +728,10 @@
 				B1000095 /* AQLEngineTests.swift in Sources */,
 				B1000096 /* ParetoEngineTests.swift in Sources */,
 				B1000097 /* HistogramEngineTests.swift in Sources */,
+				B10000AC /* FMEAEngineTests.swift in Sources */,
+				B10000AD /* IshikawaEngineTests.swift in Sources */,
+				B10000AE /* AlphaBetaEngineTests.swift in Sources */,
+				B10000AF /* HypothesisTestEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
