@@ -6,35 +6,20 @@ final class SubscriptionManager {
     static let shared = SubscriptionManager()
 
     var isSubscribed: Bool = false
+    var isTrialActive: Bool = false
     var isLoading: Bool = false
-
-    var isTrialActive: Bool {
-        guard !isSubscribed else { return false }
-        guard let installDate = installDate else { return false }
-        return Date().timeIntervalSince(installDate) < 7 * 24 * 3600
-    }
 
     var hasFullAccess: Bool { isSubscribed || isTrialActive }
 
     var trialDaysRemaining: Int {
-        guard let installDate = installDate else { return 0 }
-        let elapsed = Date().timeIntervalSince(installDate)
-        let remaining = 7 - Int(elapsed / 86400)
+        guard isTrialActive, let expirationDate = trialExpirationDate else { return 0 }
+        let remaining = Int(ceil(expirationDate.timeIntervalSinceNow / 86400))
         return max(0, remaining)
     }
 
-    private static let installDateKey = "appInstallDate"
+    private var trialExpirationDate: Date?
 
-    private var installDate: Date? {
-        get { UserDefaults.standard.object(forKey: Self.installDateKey) as? Date }
-        set { UserDefaults.standard.set(newValue, forKey: Self.installDateKey) }
-    }
-
-    private init() {
-        if installDate == nil {
-            installDate = Date()
-        }
-    }
+    private init() { }
 
     // MARK: - Configuration
 
@@ -53,7 +38,7 @@ final class SubscriptionManager {
 
         do {
             let customerInfo = try await Purchases.shared.customerInfo()
-            isSubscribed = customerInfo.entitlements[AppConstants.Subscription.entitlementID]?.isActive == true
+            updateEntitlementState(from: customerInfo)
         } catch {
             print("Failed to check subscription: \(error)")
         }
@@ -67,9 +52,19 @@ final class SubscriptionManager {
 
         do {
             let customerInfo = try await Purchases.shared.restorePurchases()
-            isSubscribed = customerInfo.entitlements[AppConstants.Subscription.entitlementID]?.isActive == true
+            updateEntitlementState(from: customerInfo)
         } catch {
             print("Failed to restore purchases: \(error)")
         }
+    }
+
+    private func updateEntitlementState(from customerInfo: CustomerInfo) {
+        let entitlement = customerInfo.entitlements[AppConstants.Subscription.entitlementID]
+        let isActive = entitlement?.isActive == true
+        let isTrial = isActive && entitlement?.periodType == .trial
+
+        isTrialActive = isTrial
+        isSubscribed = isActive && !isTrial
+        trialExpirationDate = isTrial ? entitlement?.expirationDate : nil
     }
 }

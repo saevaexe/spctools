@@ -29,12 +29,15 @@ enum FMEAEngine {
 
     /// Create FMEA item
     static func createItem(failureMode: String, severity: Int, occurrence: Int, detection: Int) -> FMEAItem {
-        let r = rpn(severity: severity, occurrence: occurrence, detection: detection)
+        let s = clamp(severity)
+        let o = clamp(occurrence)
+        let d = clamp(detection)
+        let r = rpn(severity: s, occurrence: o, detection: d)
         return FMEAItem(
             failureMode: failureMode,
-            severity: clamp(severity),
-            occurrence: clamp(occurrence),
-            detection: clamp(detection),
+            severity: s,
+            occurrence: o,
+            detection: d,
             rpn: r,
             priority: priority(rpn: r)
         )

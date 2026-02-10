@@ -38,6 +38,7 @@ enum GageRREngine {
 
         let rBar = ranges.flatMap { $0 }.reduce(0, +) / Double(numOperators * numParts)
         let d2 = AppConstants.SPC.d2Value(n: numTrials)
+        guard d2 > 0 else { return nil }
 
         // EV (Repeatability / Equipment Variation)
         let ev = rBar / d2
@@ -50,6 +51,7 @@ enum GageRREngine {
         }
         let xDiff = (operatorMeans.max() ?? 0) - (operatorMeans.min() ?? 0)
         let d2Star = AppConstants.SPC.d2Value(n: numOperators)
+        guard d2Star > 0 else { return nil }
 
         // AV (Reproducibility / Appraiser Variation)
         let avSquared = (xDiff / d2Star) * (xDiff / d2Star) - (ev * ev) / Double(numParts * numTrials)
@@ -73,6 +75,7 @@ enum GageRREngine {
         }
         let rpPart = (partMeans.max() ?? 0) - (partMeans.min() ?? 0)
         let d2Part = AppConstants.SPC.d2Value(n: numParts)
+        guard d2Part > 0 else { return nil }
         let pv = rpPart / d2Part
 
         // Total Variation (TV)
@@ -83,7 +86,7 @@ enum GageRREngine {
         let percentPV = tv > 0 ? (pv / tv) * 100 : 0
 
         // NDC (Number of Distinct Categories)
-        let ndc = pv > 0 ? Int((1.41 * pv / grr).rounded(.down)) : 0
+        let ndc = (pv > 0 && grr > 0) ? Int((1.41 * pv / grr).rounded(.down)) : 0
 
         return GageRRResult(
             repeatability: ev,

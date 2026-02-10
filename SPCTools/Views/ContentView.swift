@@ -1,31 +1,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+
     var body: some View {
-        TabView {
-            NavigationStack {
-                HomeView()
-                    .navigationDestination(for: CalculationCategory.self) { category in
-                        destinationView(for: category)
-                    }
-            }
-            .tabItem {
-                Label(String(localized: "tab.calculator"), systemImage: "function")
-            }
+        if hasSeenOnboarding {
+            TabView {
+                NavigationStack {
+                    HomeView()
+                        .navigationDestination(for: CalculationCategory.self) { category in
+                            destinationView(for: category)
+                        }
+                }
+                .tabItem {
+                    Label(String(localized: "tab.calculator"), systemImage: "function")
+                }
 
-            NavigationStack {
-                HistoryListView()
-            }
-            .tabItem {
-                Label(String(localized: "tab.history"), systemImage: "clock.arrow.circlepath")
-            }
+                NavigationStack {
+                    HistoryListView()
+                }
+                .tabItem {
+                    Label(String(localized: "tab.history"), systemImage: "clock.arrow.circlepath")
+                }
 
-            NavigationStack {
-                SettingsView()
+                NavigationStack {
+                    SettingsView()
+                }
+                .tabItem {
+                    Label(String(localized: "tab.settings"), systemImage: "gearshape")
+                }
             }
-            .tabItem {
-                Label(String(localized: "tab.settings"), systemImage: "gearshape")
-            }
+        } else {
+            OnboardingView()
         }
     }
 

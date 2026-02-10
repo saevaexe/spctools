@@ -30,7 +30,8 @@ enum HistogramEngine {
         let maxVal = sorted.last!
         guard maxVal > minVal else { return nil }
 
-        let k = binCount ?? max(sturgesBinCount(n: data.count), 3)
+        let fallback = max(sturgesBinCount(n: data.count), 3)
+        let k = (binCount ?? fallback) > 0 ? (binCount ?? fallback) : fallback
         let binWidth = (maxVal - minVal) / Double(k)
 
         var bins: [HistogramBin] = []

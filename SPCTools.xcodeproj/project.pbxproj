@@ -92,6 +92,7 @@
 		B10000AE /* AlphaBetaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AE /* AlphaBetaEngineTests.swift */; };
 		B10000AF /* HypothesisTestEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AF /* HypothesisTestEngineTests.swift */; };
 		B10000B0 /* PaywallWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000B0 /* PaywallWrapperView.swift */; };
+		B10000B1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000B1 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +193,7 @@
 		C10000AE /* AlphaBetaEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaEngineTests.swift; sourceTree = "<group>"; };
 		C10000AF /* HypothesisTestEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestEngineTests.swift; sourceTree = "<group>"; };
 		C10000B0 /* PaywallWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallWrapperView.swift; sourceTree = "<group>"; };
+		C10000B1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +337,7 @@
 				D100001D /* AlphaBeta */,
 				D100001E /* HypothesisTest */,
 				D100001F /* Subscription */,
+				D1000021 /* Onboarding */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -497,6 +500,14 @@
 				C10000B0 /* PaywallWrapperView.swift */,
 			);
 			path = Subscription;
+			sourceTree = "<group>";
+		};
+		D1000021 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C10000B1 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		D100001B /* FMEA */ = {
@@ -729,6 +740,7 @@
 				B10000AA /* AlphaBetaView.swift in Sources */,
 				B10000AB /* HypothesisTestView.swift in Sources */,
 				B10000B0 /* PaywallWrapperView.swift in Sources */,
+				B10000B1 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
