@@ -53,6 +53,9 @@ struct HomeView: View {
             .padding(.vertical)
         }
         .navigationTitle(String(localized: "app.title"))
+        .sheet(isPresented: $showPaywall) {
+            PaywallWrapperView()
+        }
     }
 
     @ViewBuilder

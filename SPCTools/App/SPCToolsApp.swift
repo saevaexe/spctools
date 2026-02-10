@@ -9,11 +9,11 @@ struct SPCToolsApp: App {
         WindowGroup {
             ContentView()
                 .environment(subscriptionManager)
-                .task {
-                    await subscriptionManager.loadProducts()
+                .onAppear {
+                    subscriptionManager.configure()
                 }
                 .task {
-                    await subscriptionManager.listenForTransactions()
+                    await subscriptionManager.checkSubscriptionStatus()
                 }
         }
         .modelContainer(for: CalculationRecord.self)

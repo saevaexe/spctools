@@ -91,6 +91,7 @@
 		B10000AD /* IshikawaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AD /* IshikawaEngineTests.swift */; };
 		B10000AE /* AlphaBetaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AE /* AlphaBetaEngineTests.swift */; };
 		B10000AF /* HypothesisTestEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000AF /* HypothesisTestEngineTests.swift */; };
+		B10000B0 /* PaywallWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10000B0 /* PaywallWrapperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +191,7 @@
 		C10000AD /* IshikawaEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikawaEngineTests.swift; sourceTree = "<group>"; };
 		C10000AE /* AlphaBetaEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaBetaEngineTests.swift; sourceTree = "<group>"; };
 		C10000AF /* HypothesisTestEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypothesisTestEngineTests.swift; sourceTree = "<group>"; };
+		C10000B0 /* PaywallWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +334,7 @@
 				D100001C /* Ishikawa */,
 				D100001D /* AlphaBeta */,
 				D100001E /* HypothesisTest */,
+				D100001F /* Subscription */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -488,6 +491,14 @@
 			path = Histogram;
 			sourceTree = "<group>";
 		};
+		D100001F /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				C10000B0 /* PaywallWrapperView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
 		D100001B /* FMEA */ = {
 			isa = PBXGroup;
 			children = (
@@ -558,6 +569,10 @@
 			dependencies = (
 			);
 			name = SPCTools;
+			packageProductDependencies = (
+				E1000002 /* RevenueCat */,
+				E1000003 /* RevenueCatUI */,
+			);
 			productName = SPCTools;
 			productReference = C1000005 /* SPCTools.app */;
 			productType = "com.apple.product-type.application";
@@ -610,6 +625,9 @@
 			);
 			mainGroup = D1000001 /* root */;
 			productRefGroup = D1000003 /* Products */;
+			packageReferences = (
+				E1000001 /* purchases-ios-spm */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -710,6 +728,7 @@
 				B10000A9 /* IshikawaView.swift in Sources */,
 				B10000AA /* AlphaBetaView.swift in Sources */,
 				B10000AB /* HypothesisTestView.swift in Sources */,
+				B10000B0 /* PaywallWrapperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -998,6 +1017,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1000001 /* purchases-ios-spm */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1000002 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1000001 /* purchases-ios-spm */;
+			productName = RevenueCat;
+		};
+		E1000003 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1000001 /* purchases-ios-spm */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1000080 /* Project object */;
 }
