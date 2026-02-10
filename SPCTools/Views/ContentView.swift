@@ -37,12 +37,12 @@ struct ContentView: View {
         case .sigmaLevel:       SigmaLevelView()
         case .sampleSize:       SampleSizeView()
         case .formulaReference: FormulaReferenceView()
-        case .ppPpk:            Text("Pp/Ppk") // Placeholder
-        case .controlChart:     Text("Control Charts") // Placeholder
-        case .gageRR:           Text("Gage R&R") // Placeholder
-        case .aqlTable:         Text("AQL Table") // Placeholder
-        case .pareto:           Text("Pareto") // Placeholder
-        case .histogram:        Text("Histogram") // Placeholder
+        case .ppPpk:            PpPpkView()
+        case .controlChart:     ControlChartView()
+        case .gageRR:           GageRRView()
+        case .aqlTable:         AQLTableView()
+        case .pareto:           ParetoView()
+        case .histogram:        HistogramView()
         case .fmea:             Text("FMEA") // Placeholder
         case .ishikawa:         Text("Ishikawa") // Placeholder
         case .alphaBeta:        Text("Alpha/Beta") // Placeholder

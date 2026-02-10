@@ -708,6 +708,210 @@
         "en" : { "stringUnit" : { "state" : "translated", "value" : "pcs" } },
         "tr" : { "stringUnit" : { "state" : "translated", "value" : "adet" } }
       }
+    },
+    "ppPpk.usl" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "USL (Upper Spec Limit)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ÜSL (Üst Spek Limiti)" } }
+      }
+    },
+    "ppPpk.lsl" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "LSL (Lower Spec Limit)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "ASL (Alt Spek Limiti)" } }
+      }
+    },
+    "ppPpk.mean" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mean (X̄)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ortalama (X̄)" } }
+      }
+    },
+    "ppPpk.sigmaOverall" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Overall Sigma (σ)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Genel Sigma (σ)" } }
+      }
+    },
+    "ppPpk.interpretation.excellent" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Excellent (Ppk ≥ 2.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Mükemmel (Ppk ≥ 2.0)" } }
+      }
+    },
+    "ppPpk.interpretation.good" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Good (Ppk ≥ 1.67)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "İyi (Ppk ≥ 1.67)" } }
+      }
+    },
+    "ppPpk.interpretation.capable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Capable (Ppk ≥ 1.33)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Yeterli (Ppk ≥ 1.33)" } }
+      }
+    },
+    "ppPpk.interpretation.marginal" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Marginal (Ppk ≥ 1.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sınırda (Ppk ≥ 1.0)" } }
+      }
+    },
+    "ppPpk.interpretation.incapable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Incapable (Ppk < 1.0)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Yetersiz (Ppk < 1.0)" } }
+      }
+    },
+    "controlChart.dataInput" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data Values" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Veri Değerleri" } }
+      }
+    },
+    "controlChart.subgroupSize" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Subgroup Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Alt Grup Büyüklüğü" } }
+      }
+    },
+    "controlChart.outOfControl %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld out-of-control points detected" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "%lld kontrol dışı nokta tespit edildi" } }
+      }
+    },
+    "gageRR.operators" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of Operators" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Operatör Sayısı" } }
+      }
+    },
+    "gageRR.parts" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of Parts" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Parça Sayısı" } }
+      }
+    },
+    "gageRR.trials" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Number of Trials" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Deneme Sayısı" } }
+      }
+    },
+    "gageRR.measurements" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Measurement Data" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Ölçüm Verileri" } }
+      }
+    },
+    "gageRR.interpretation.acceptable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Acceptable (%GRR < 10%)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kabul edilebilir (%GRR < %10)" } }
+      }
+    },
+    "gageRR.interpretation.marginal" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Marginal (10% ≤ %GRR < 30%)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sınırda (%10 ≤ %GRR < %30)" } }
+      }
+    },
+    "gageRR.interpretation.unacceptable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unacceptable (%GRR ≥ 30%)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kabul edilemez (%GRR ≥ %30)" } }
+      }
+    },
+    "aql.lotSize" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lot Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Parti Büyüklüğü" } }
+      }
+    },
+    "aql.inspectionLevel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Inspection Level" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Muayene Seviyesi" } }
+      }
+    },
+    "aql.aqlValue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AQL Value" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "AQL Değeri" } }
+      }
+    },
+    "aql.codeLetter" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Code Letter" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kod Harfi" } }
+      }
+    },
+    "aql.sampleSize" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sample Size" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Örneklem Büyüklüğü" } }
+      }
+    },
+    "aql.accept" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Accept (Ac)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kabul (Ac)" } }
+      }
+    },
+    "aql.reject" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Reject (Re)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Red (Re)" } }
+      }
+    },
+    "pareto.categories" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Categories (comma separated)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Kategoriler (virgülle ayrılmış)" } }
+      }
+    },
+    "pareto.counts" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Counts (comma separated)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Sayılar (virgülle ayrılmış)" } }
+      }
+    },
+    "pareto.chart" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pareto Chart" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Pareto Grafiği" } }
+      }
+    },
+    "pareto.vitalFew" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Vital Few (80/20)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Hayati Azınlık (80/20)" } }
+      }
+    },
+    "histogram.dataInput" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data Values" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Veri Değerleri" } }
+      }
+    },
+    "histogram.binCount" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom Bin Count" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Özel Sınıf Sayısı" } }
+      }
+    },
+    "histogram.optional" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "(auto)" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "(otomatik)" } }
+      }
+    },
+    "histogram.chart" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Histogram" } },
+        "tr" : { "stringUnit" : { "state" : "translated", "value" : "Histogram" } }
+      }
     }
   },
   "version" : "1.0"

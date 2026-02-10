@@ -51,6 +51,30 @@
 		B1000052 /* SigmaLevelEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000052 /* SigmaLevelEngineTests.swift */; };
 		B1000053 /* SampleSizeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000053 /* SampleSizeEngineTests.swift */; };
 		B1000070 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C1000070 /* Localizable.xcstrings */; };
+		B1000080 /* PpPpkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000080 /* PpPpkEngine.swift */; };
+		B1000081 /* ControlChartEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000081 /* ControlChartEngine.swift */; };
+		B1000082 /* GageRREngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000082 /* GageRREngine.swift */; };
+		B1000083 /* AQLEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000083 /* AQLEngine.swift */; };
+		B1000084 /* ParetoEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000084 /* ParetoEngine.swift */; };
+		B1000085 /* HistogramEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000085 /* HistogramEngine.swift */; };
+		B1000086 /* PpPpkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000086 /* PpPpkViewModel.swift */; };
+		B1000087 /* ControlChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000087 /* ControlChartViewModel.swift */; };
+		B1000088 /* GageRRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000088 /* GageRRViewModel.swift */; };
+		B1000089 /* AQLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000089 /* AQLViewModel.swift */; };
+		B100008A /* ParetoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008A /* ParetoViewModel.swift */; };
+		B100008B /* HistogramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008B /* HistogramViewModel.swift */; };
+		B100008C /* PpPpkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008C /* PpPpkView.swift */; };
+		B100008D /* ControlChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008D /* ControlChartView.swift */; };
+		B100008E /* GageRRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008E /* GageRRView.swift */; };
+		B100008F /* AQLTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100008F /* AQLTableView.swift */; };
+		B1000090 /* ParetoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000090 /* ParetoView.swift */; };
+		B1000091 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000091 /* HistogramView.swift */; };
+		B1000092 /* PpPpkEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000092 /* PpPpkEngineTests.swift */; };
+		B1000093 /* ControlChartEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000093 /* ControlChartEngineTests.swift */; };
+		B1000094 /* GageRREngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000094 /* GageRREngineTests.swift */; };
+		B1000095 /* AQLEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000095 /* AQLEngineTests.swift */; };
+		B1000096 /* ParetoEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000096 /* ParetoEngineTests.swift */; };
+		B1000097 /* HistogramEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000097 /* HistogramEngineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +134,30 @@
 		C1000052 /* SigmaLevelEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelEngineTests.swift; sourceTree = "<group>"; };
 		C1000053 /* SampleSizeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeEngineTests.swift; sourceTree = "<group>"; };
 		C1000070 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C1000080 /* PpPpkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpPpkEngine.swift; sourceTree = "<group>"; };
+		C1000081 /* ControlChartEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlChartEngine.swift; sourceTree = "<group>"; };
+		C1000082 /* GageRREngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageRREngine.swift; sourceTree = "<group>"; };
+		C1000083 /* AQLEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQLEngine.swift; sourceTree = "<group>"; };
+		C1000084 /* ParetoEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParetoEngine.swift; sourceTree = "<group>"; };
+		C1000085 /* HistogramEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramEngine.swift; sourceTree = "<group>"; };
+		C1000086 /* PpPpkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpPpkViewModel.swift; sourceTree = "<group>"; };
+		C1000087 /* ControlChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlChartViewModel.swift; sourceTree = "<group>"; };
+		C1000088 /* GageRRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageRRViewModel.swift; sourceTree = "<group>"; };
+		C1000089 /* AQLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQLViewModel.swift; sourceTree = "<group>"; };
+		C100008A /* ParetoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParetoViewModel.swift; sourceTree = "<group>"; };
+		C100008B /* HistogramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramViewModel.swift; sourceTree = "<group>"; };
+		C100008C /* PpPpkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpPpkView.swift; sourceTree = "<group>"; };
+		C100008D /* ControlChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlChartView.swift; sourceTree = "<group>"; };
+		C100008E /* GageRRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageRRView.swift; sourceTree = "<group>"; };
+		C100008F /* AQLTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQLTableView.swift; sourceTree = "<group>"; };
+		C1000090 /* ParetoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParetoView.swift; sourceTree = "<group>"; };
+		C1000091 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
+		C1000092 /* PpPpkEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpPpkEngineTests.swift; sourceTree = "<group>"; };
+		C1000093 /* ControlChartEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlChartEngineTests.swift; sourceTree = "<group>"; };
+		C1000094 /* GageRREngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GageRREngineTests.swift; sourceTree = "<group>"; };
+		C1000095 /* AQLEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQLEngineTests.swift; sourceTree = "<group>"; };
+		C1000096 /* ParetoEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParetoEngineTests.swift; sourceTree = "<group>"; };
+		C1000097 /* HistogramEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramEngineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +241,12 @@
 				C1000061 /* OEEEngine.swift */,
 				C1000042 /* SigmaLevelEngine.swift */,
 				C1000043 /* SampleSizeEngine.swift */,
+				C1000080 /* PpPpkEngine.swift */,
+				C1000081 /* ControlChartEngine.swift */,
+				C1000082 /* GageRREngine.swift */,
+				C1000083 /* AQLEngine.swift */,
+				C1000084 /* ParetoEngine.swift */,
+				C1000085 /* HistogramEngine.swift */,
 			);
 			path = Engines;
 			sourceTree = "<group>";
@@ -206,6 +260,12 @@
 				C1000045 /* OEEViewModel.swift */,
 				C1000046 /* SigmaLevelViewModel.swift */,
 				C1000047 /* SampleSizeViewModel.swift */,
+				C1000086 /* PpPpkViewModel.swift */,
+				C1000087 /* ControlChartViewModel.swift */,
+				C1000088 /* GageRRViewModel.swift */,
+				C1000089 /* AQLViewModel.swift */,
+				C100008A /* ParetoViewModel.swift */,
+				C100008B /* HistogramViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -222,6 +282,12 @@
 				D1000012 /* SigmaLevel */,
 				D1000013 /* SampleSize */,
 				D1000014 /* FormulaReference */,
+				D1000015 /* PpPpk */,
+				D1000016 /* ControlChart */,
+				D1000017 /* GageRR */,
+				D1000018 /* AQLTable */,
+				D1000019 /* Pareto */,
+				D100001A /* Histogram */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,6 +396,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D1000015 /* PpPpk */ = {
+			isa = PBXGroup;
+			children = (
+				C100008C /* PpPpkView.swift */,
+			);
+			path = PpPpk;
+			sourceTree = "<group>";
+		};
+		D1000016 /* ControlChart */ = {
+			isa = PBXGroup;
+			children = (
+				C100008D /* ControlChartView.swift */,
+			);
+			path = ControlChart;
+			sourceTree = "<group>";
+		};
+		D1000017 /* GageRR */ = {
+			isa = PBXGroup;
+			children = (
+				C100008E /* GageRRView.swift */,
+			);
+			path = GageRR;
+			sourceTree = "<group>";
+		};
+		D1000018 /* AQLTable */ = {
+			isa = PBXGroup;
+			children = (
+				C100008F /* AQLTableView.swift */,
+			);
+			path = AQLTable;
+			sourceTree = "<group>";
+		};
+		D1000019 /* Pareto */ = {
+			isa = PBXGroup;
+			children = (
+				C1000090 /* ParetoView.swift */,
+			);
+			path = Pareto;
+			sourceTree = "<group>";
+		};
+		D100001A /* Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				C1000091 /* HistogramView.swift */,
+			);
+			path = Histogram;
+			sourceTree = "<group>";
+		};
 		D1000020 /* SPCToolsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +452,12 @@
 				C1000051 /* OEEEngineTests.swift */,
 				C1000052 /* SigmaLevelEngineTests.swift */,
 				C1000053 /* SampleSizeEngineTests.swift */,
+				C1000092 /* PpPpkEngineTests.swift */,
+				C1000093 /* ControlChartEngineTests.swift */,
+				C1000094 /* GageRREngineTests.swift */,
+				C1000095 /* AQLEngineTests.swift */,
+				C1000096 /* ParetoEngineTests.swift */,
+				C1000097 /* HistogramEngineTests.swift */,
 			);
 			path = SPCToolsTests;
 			sourceTree = "<group>";
@@ -480,6 +600,24 @@
 				B100004A /* SigmaLevelView.swift in Sources */,
 				B100004B /* SampleSizeView.swift in Sources */,
 				B100004C /* FormulaReferenceView.swift in Sources */,
+				B1000080 /* PpPpkEngine.swift in Sources */,
+				B1000081 /* ControlChartEngine.swift in Sources */,
+				B1000082 /* GageRREngine.swift in Sources */,
+				B1000083 /* AQLEngine.swift in Sources */,
+				B1000084 /* ParetoEngine.swift in Sources */,
+				B1000085 /* HistogramEngine.swift in Sources */,
+				B1000086 /* PpPpkViewModel.swift in Sources */,
+				B1000087 /* ControlChartViewModel.swift in Sources */,
+				B1000088 /* GageRRViewModel.swift in Sources */,
+				B1000089 /* AQLViewModel.swift in Sources */,
+				B100008A /* ParetoViewModel.swift in Sources */,
+				B100008B /* HistogramViewModel.swift in Sources */,
+				B100008C /* PpPpkView.swift in Sources */,
+				B100008D /* ControlChartView.swift in Sources */,
+				B100008E /* GageRRView.swift in Sources */,
+				B100008F /* AQLTableView.swift in Sources */,
+				B1000090 /* ParetoView.swift in Sources */,
+				B1000091 /* HistogramView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +630,12 @@
 				B1000051 /* OEEEngineTests.swift in Sources */,
 				B1000052 /* SigmaLevelEngineTests.swift in Sources */,
 				B1000053 /* SampleSizeEngineTests.swift in Sources */,
+				B1000092 /* PpPpkEngineTests.swift in Sources */,
+				B1000093 /* ControlChartEngineTests.swift in Sources */,
+				B1000094 /* GageRREngineTests.swift in Sources */,
+				B1000095 /* AQLEngineTests.swift in Sources */,
+				B1000096 /* ParetoEngineTests.swift in Sources */,
+				B1000097 /* HistogramEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

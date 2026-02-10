@@ -42,6 +42,12 @@ enum AppConstants {
 
         // Standard 1.5σ shift for Six Sigma
         static let sigmaShift: Double = 1.5
+
+        // Helper accessors
+        static func a2(n: Int) -> Double { A2[n] ?? 0 }
+        static func d3(n: Int) -> Double { D3[n] ?? 0 }
+        static func d4(n: Int) -> Double { D4[n] ?? 0 }
+        static func d2Value(n: Int) -> Double { d2[n] ?? 0 }
     }
 
     enum AQL {
