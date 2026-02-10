@@ -104,7 +104,7 @@ enum AppConstants {
     }
 
     enum Subscription {
-        static let revenueCatAPIKey = "appl_XXXXXXXX" // TODO: Replace with real key from RevenueCat dashboard
+        static let revenueCatAPIKey = "test_wOouLCUCouhsRYrRWoKpdTxtLbC"
         static let entitlementID = "pro"
         static let monthlyProductID = "com.spctools.pro.monthly"
         static let yearlyProductID = "com.spctools.pro.yearly"
