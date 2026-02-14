@@ -1,93 +1,47 @@
 # SPC Tools - Quality Engineering Calculator
 
-## Project Info
-- **Bundle ID:** com.osmanseven.spctools
-- **Team ID:** 5V9A3GUJ32
-- **iOS Target:** 17.0+
-- **Languages:** TR + EN
-- **Architecture:** SwiftUI + MVVM + SwiftData + @Observable
-
 ## Build & Test
 ```bash
-# Build
 xcodebuild -scheme SPCTools -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17 Pro' build
-
-# Test
 xcodebuild test -scheme SPCTools -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
-
-# Archive
-xcodebuild archive -scheme SPCTools -archivePath build/SPCTools.xcarchive
 ```
 
-## Architecture Rules
-- **Engine:** Pure static functions, no dependencies. One per calculator module.
-- **ViewModel:** @Observable class, handles input parsing, validation, calls Engine.
-- **View:** SwiftUI, uses ViewModel via @State, uses Components.
-- **Test:** One test file per Engine, XCTAssertEqual with accuracy: 1e-9.
+## Architecture: SwiftUI + MVVM + SwiftData + @Observable (iOS 17+)
+- **Engine** → Pure static functions. No side effects, no imports beyond Foundation. Why: testability and reuse.
+- **ViewModel** → @Observable class. Handles input parsing, validation, calls Engine. Why: keeps Views thin.
+- **View** → SwiftUI. Uses ViewModel via @State. Always wrap in ScrollView + VStack. Why: consistent UX across all modules.
+- **Test** → One file per Engine. XCTAssertEqual with accuracy: 1e-9. Why: floating-point math needs explicit tolerance.
+
+## Critical Patterns (break these = bugs)
+- Input parsing: `Double(text.replacingOccurrences(of: ",", with: "."))` — Turkish locale uses comma for decimals
+- Spacing: `AppTheme.Spacing.*` only — hardcoded values cause inconsistency on iPad
+- Corners: `AppTheme.CornerRadius.*` only
+- Localization: `String(localized: "key.name")` — all user-facing strings, no hardcoded text
+- iPad support: `.frame(maxWidth: 600)` on every calculator view — without this, views stretch ugly on iPad
+- Premium gate: `category.isPremium && !subscriptionManager.hasFullAccess` — never bypass this check
+- History: save via `CalculationRecord` SwiftData model after every successful calculation
 
 ## New Module Checklist
-1. `Engines/XxxEngine.swift` - Static calculation methods
-2. `ViewModels/XxxViewModel.swift` - @Observable, input/output state
-3. `Views/Xxx/XxxView.swift` - SwiftUI UI with ScrollView + VStack
-4. `SPCToolsTests/XxxEngineTests.swift` - Unit tests
-5. Add case to `CalculationCategory` enum
+1. `Engines/XxxEngine.swift` — static methods
+2. `ViewModels/XxxViewModel.swift` — @Observable
+3. `Views/Xxx/XxxView.swift` — ScrollView + VStack
+4. `SPCToolsTests/XxxEngineTests.swift` — min 5 test cases
+5. Add case to `CalculationCategory` enum + set isPremium
 6. Add navigation in `ContentView.destinationView(for:)`
-7. Add localization keys in `Localizable.xcstrings`
-8. Add maxWidth: 600 for iPad support
+7. Add localization keys in `Localizable.xcstrings` (TR + EN)
 
-## Key Patterns
-- Input parsing: `Double(text.replacingOccurrences(of: ",", with: "."))`
-- All spacing via `AppTheme.Spacing.*`
-- All corners via `AppTheme.CornerRadius.*`
-- Localization: `String(localized: "key.name")`
-- History: `CalculationRecord` SwiftData model
-- Premium check: `category.isPremium && !subscriptionManager.hasFullAccess`
+## Do NOT
+- Create extra files or abstractions I didn't ask for — this codebase is intentionally flat
+- Add error handling for impossible states — Engine inputs are already validated by ViewModel
+- Modify project.pbxproj via Xcode GUI — manual management only (refs: C1, builds: B1, groups: D1)
+- Rename or restructure folders — the 1:1 mapping (Engine:ViewModel:View:Test) is deliberate
+- Add third-party dependencies without explicit approval — RevenueCat is the only external dep
 
-## File Structure
-```
-SPCTools/
-├── App/           → SPCToolsApp, AppConstants, AppTheme, SubscriptionManager
-├── Models/        → CalculationCategory, CalculationRecord, QualityUnit
-├── Engines/       → Pure calculation logic (static structs)
-├── ViewModels/    → @Observable state management
-├── Views/         → SwiftUI screens (one folder per module)
-├── Components/    → Reusable UI (InputFieldView, ResultCardView, etc.)
-├── Extensions/    → Double+Formatting, View+HideKeyboard
-└── Resources/     → Localizable.xcstrings
-```
+## Subscription (RevenueCat)
+- Entitlement ID: `"pro"` — 5 free calculators, 10 premium
+- 7-day free trial on both plans
 
-## Modules (15 Calculators)
-### Free (5):
-1. Cp/Cpk - Process capability index
-2. OEE - Overall Equipment Effectiveness
-3. Sigma Level - DPMO ↔ Sigma conversion
-4. Sample Size - Confidence level, margin of error → n
-5. Formula Reference - Quick-access formula library
-
-### Premium (10):
-6. Pp/Ppk - Process performance index
-7. Control Charts - X-bar R, I-MR (with Swift Charts)
-8. Gage R&R - Measurement System Analysis
-9. AQL Table - ISO 2859-1 sampling plans
-10. Pareto Analysis - 80/20 rule with cumulative %
-11. Histogram - Frequency distribution
-12. FMEA - RPN calculation
-13. Ishikawa - Fishbone diagram template
-14. Alpha/Beta Error - Type I/II error, power analysis
-15. Hypothesis Test - t-test, z-test
-
-## Subscription
-- Monthly: com.spctools.pro.monthly ($2.99)
-- Yearly: com.spctools.pro.yearly ($19.99)
-- 7-day free trial
-
-## Git Workflow
-- `main` → stable, merge only
-- `feature/xxx` → feature branches
-- Tags: v0.1-phase1, v0.2-phase2, v1.0-release
-
-## project.pbxproj
-- File refs: C1xxxxxx
-- Build files: B1xxxxxx
-- Groups: D1xxxxxx
-- Manual management, no Xcode GUI edits to pbxproj
+## Known Gotchas
+- `PRODUCT_NAME` must be `"$(TARGET_NAME)"` — was broken before as `"$(ElcCalc)"` typo from Xcode GUI
+- Device must be in Developer Mode + registered before archive
+- pbxproj edits: always verify ref IDs don't collide with existing ones
