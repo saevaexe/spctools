@@ -3393,215 +3393,55 @@
         }
       }
     },
-    "onboarding.features.highlight1" : {
+    "onboarding.identity.highlight1" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Organized tools by category"
+            "value" : "Cp/Cpk on the production floor"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Araçlar kategoriye göre düzenli"
+            "value" : "Üretimde Cp/Cpk hesabı"
           }
         }
       }
     },
-    "onboarding.features.highlight2" : {
+    "onboarding.identity.highlight2" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search across calculators"
+            "value" : "Gage R&R at your desk"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hesaplayıcılar arasında arama"
+            "value" : "Ofiste Gage R&R analizi"
           }
         }
       }
     },
-    "onboarding.features.highlight3" : {
+    "onboarding.identity.highlight3" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favorites for quick access"
+            "value" : "15 professional calculators"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hızlı erişim için favoriler"
+            "value" : "15 profesyonel hesap makinesi"
           }
         }
       }
     },
-    "onboarding.features.subtitle" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Run calculations, review results, and keep a clean history."
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hesaplamaları yapın, sonuçları inceleyin ve temiz bir geçmiş tutun."
-          }
-        }
-      }
-    },
-    "onboarding.features.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Everything in one place"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Her şey tek yerde"
-          }
-        }
-      }
-    },
-    "onboarding.getStarted.highlight1" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Simple inputs with smart validation"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Akıllı doğrulama ile basit girişler"
-          }
-        }
-      }
-    },
-    "onboarding.getStarted.highlight2" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear interpretations"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Net yorumlar"
-          }
-        }
-      }
-    },
-    "onboarding.getStarted.highlight3" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Results saved automatically"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sonuçlar otomatik kaydedilir"
-          }
-        }
-      }
-    },
-    "onboarding.getStarted.subtitle" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter your data, get insights, and export results easily."
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verilerinizi girin, içgörüler alın ve sonuçları kolayca dışa aktarın."
-          }
-        }
-      }
-    },
-    "onboarding.getStarted.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Get started in seconds"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saniyeler içinde başlayın"
-          }
-        }
-      }
-    },
-    "onboarding.welcome.highlight1" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Control charts, Cp/Cpk, Pp/Ppk"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kontrol kartları, Cp/Cpk, Pp/Ppk"
-          }
-        }
-      }
-    },
-    "onboarding.welcome.highlight2" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gage R&R, AQL, Sigma level"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gage R&R, AQL, Sigma seviyesi"
-          }
-        }
-      }
-    },
-    "onboarding.welcome.highlight3" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Built for manufacturing teams"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Üretim ekipleri için tasarlandı"
-          }
-        }
-      }
-    },
-    "onboarding.welcome.subtitle" : {
+    "onboarding.identity.subtitle" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3617,18 +3457,386 @@
         }
       }
     },
-    "onboarding.welcome.title" : {
+    "onboarding.identity.title" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Welcome to SPC Tools"
+            "value" : "Built for Quality Engineers"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "SPC Tools'a Hoş Geldiniz"
+            "value" : "Kalite Mühendisleri İçin Tasarlandı"
+          }
+        }
+      }
+    },
+    "onboarding.start.highlight1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 free calculators, no limits"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 ücretsiz hesap makinesi, sınırsız"
+          }
+        }
+      }
+    },
+    "onboarding.start.highlight2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Results saved automatically"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonuçlar otomatik kaydedilir"
+          }
+        }
+      }
+    },
+    "onboarding.start.highlight3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorites for quick access"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hızlı erişim için favoriler"
+          }
+        }
+      }
+    },
+    "onboarding.start.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start calculating right away with free tools."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ücretsiz araçlarla hemen hesaplamaya başlayın."
+          }
+        }
+      }
+    },
+    "onboarding.start.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Calculating Now"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hemen Hesapla"
+          }
+        }
+      }
+    },
+    "onboarding.trial.disclosure" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment will be charged to your Apple ID account at the confirmation of purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ödeme, satın alma onayında Apple ID hesabınızdan alınır. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir."
+          }
+        }
+      }
+    },
+    "onboarding.trial.highlight1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All 15 calculators unlocked"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "15 hesap makinesinin tamamı açık"
+          }
+        }
+      }
+    },
+    "onboarding.trial.highlight2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gage R&R, AQL & Sigma Level"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gage R&R, AQL ve Sigma Seviyesi"
+          }
+        }
+      }
+    },
+    "onboarding.trial.highlight3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel anytime, no commitment"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstediğiniz zaman iptal edin"
+          }
+        }
+      }
+    },
+    "onboarding.trial.maybeLater" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maybe Later"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belki Sonra"
+          }
+        }
+      }
+    },
+    "onboarding.trial.startButton" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try 7 Days Free"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 Gün Ücretsiz Dene"
+          }
+        }
+      }
+    },
+    "onboarding.trial.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock all 15 professional calculators with a free trial."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ücretsiz deneme ile 15 profesyonel hesap makinesinin tamamını açın."
+          }
+        }
+      }
+    },
+    "onboarding.trial.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock Everything"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamını Aç"
+          }
+        }
+      }
+    },
+    "onboarding.trust.highlight1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AIAG Gage R&R methodology"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AIAG Gage R&R metodolojisi"
+          }
+        }
+      }
+    },
+    "onboarding.trust.highlight2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISO 2859-1 AQL sampling"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISO 2859-1 AQL örnekleme"
+          }
+        }
+      }
+    },
+    "onboarding.trust.highlight3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Six Sigma DPMO calculations"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Six Sigma DPMO hesaplamaları"
+          }
+        }
+      }
+    },
+    "onboarding.trust.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every formula follows industry standards and proven methodologies."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her formül endüstri standartlarına ve kanıtlanmış metodolojilere uygun."
+          }
+        }
+      }
+    },
+    "onboarding.trust.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standards-Compliant"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standartlara Uygun"
+          }
+        }
+      }
+    },
+    "onboarding.value.highlight1" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculations with clear interpretations"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Net yorumlu hesaplamalar"
+          }
+        }
+      }
+    },
+    "onboarding.value.highlight2" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full calculation history"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm hesaplama geçmişi"
+          }
+        }
+      }
+    },
+    "onboarding.value.highlight3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actionable results, not just numbers"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece sayı değil, aksiyon alınabilir sonuçlar"
+          }
+        }
+      }
+    },
+    "onboarding.value.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not just numbers — get interpretations and keep your history."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece sayı değil — yorumları alın ve geçmişinizi tutun."
+          }
+        }
+      }
+    },
+    "onboarding.value.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Results, Not Just Numbers"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece Sayı Değil, Sonuç"
           }
         }
       }
