@@ -7,6 +7,9 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+# Build
+build/
+
 # Fastlane
-fastlane/keys/
+fastlane/
 *.p8
