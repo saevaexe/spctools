@@ -9,10 +9,8 @@ struct SPCToolsApp: App {
         WindowGroup {
             ContentView()
                 .environment(subscriptionManager)
-                .onAppear {
-                    subscriptionManager.configure()
-                }
                 .task {
+                    subscriptionManager.configure()
                     await subscriptionManager.checkSubscriptionStatus()
                 }
         }

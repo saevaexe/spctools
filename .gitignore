@@ -6,3 +6,7 @@ DerivedData/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+# Fastlane
+fastlane/keys/
+*.p8

@@ -19,11 +19,15 @@ final class SubscriptionManager {
 
     private var trialExpirationDate: Date?
 
+    private var isConfigured = false
+
     private init() { }
 
     // MARK: - Configuration
 
     func configure() {
+        guard !isConfigured else { return }
+        isConfigured = true
         #if DEBUG
         Purchases.logLevel = .debug
         #endif

@@ -27,6 +27,16 @@ struct SettingsView: View {
                 }
             }
 
+            Section(String(localized: "settings.legal")) {
+                Link(destination: URL(string: "https://saevaexe.github.io/spctools/privacy.html")!) {
+                    Label(String(localized: "settings.privacyPolicy"), systemImage: "lock.shield")
+                }
+
+                Link(destination: URL(string: "https://saevaexe.github.io/spctools/terms.html")!) {
+                    Label(String(localized: "settings.termsOfUse"), systemImage: "doc.text")
+                }
+            }
+
             Section(String(localized: "settings.about")) {
                 HStack {
                     Text(String(localized: "settings.version"))

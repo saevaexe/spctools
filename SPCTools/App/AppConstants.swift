@@ -104,7 +104,7 @@ enum AppConstants {
     }
 
     enum Subscription {
-        static let revenueCatAPIKey = "test_wOouLCUCouhsRYrRWoKpdTxtLbC"
+        static let revenueCatAPIKey = "appl_KUfCNhjzujAVflyRGUuxYfgAMfl"
         static let entitlementID = "pro"
         static let monthlyProductID = "com.spctools.pro.monthly"
         static let yearlyProductID = "com.spctools.pro.yearly"
