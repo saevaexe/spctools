@@ -3798,13 +3798,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Actionable results, not just numbers"
+            "value" : "Actionable, decision-ready results"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sadece sayı değil, aksiyon alınabilir sonuçlar"
+            "value" : "Karar vermeye hazır sonuçlar"
           }
         }
       }
