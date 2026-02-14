@@ -2953,6 +2953,22 @@
         }
       }
     },
+    "settings.rateApp" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate on App Store"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store'da Değerlendir"
+          }
+        }
+      }
+    },
     "settings.sendFeedback" : {
       "localizations" : {
         "en" : {
@@ -3061,6 +3077,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sürüm"
+          }
+        }
+      }
+    },
+    "settings.upgradePro" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upgrade to PRO"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PRO'ya Geç"
           }
         }
       }
@@ -3230,13 +3262,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Upgrade to PRO for all calculators"
+            "value" : "Upgrade to PRO"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tüm hesaplayıcılar için PRO'ya yükseltin"
+            "value" : "PRO'ya Geç"
           }
         }
       }
