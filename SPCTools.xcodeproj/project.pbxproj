@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8490C9502F45079B00A850CB /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = E1000002 /* RevenueCat */; };
+		8490C9512F45079B00A850CB /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = E1000003 /* RevenueCatUI */; };
 		B1000001 /* SPCToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000001 /* SPCToolsApp.swift */; };
 		B1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000002 /* ContentView.swift */; };
 		B1000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1000003 /* Assets.xcassets */; };
@@ -33,8 +35,6 @@
 		B1000035 /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000035 /* HistoryRowView.swift */; };
 		B1000036 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000036 /* SettingsView.swift */; };
 		B1000037 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000037 /* SearchBarView.swift */; };
-		B1000060 /* CpCpkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000060 /* CpCpkEngine.swift */; };
-		B1000061 /* OEEEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000061 /* OEEEngine.swift */; };
 		B1000042 /* SigmaLevelEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000042 /* SigmaLevelEngine.swift */; };
 		B1000043 /* SampleSizeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000043 /* SampleSizeEngine.swift */; };
 		B1000044 /* CpCpkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000044 /* CpCpkViewModel.swift */; };
@@ -50,6 +50,8 @@
 		B1000051 /* OEEEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000051 /* OEEEngineTests.swift */; };
 		B1000052 /* SigmaLevelEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000052 /* SigmaLevelEngineTests.swift */; };
 		B1000053 /* SampleSizeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000053 /* SampleSizeEngineTests.swift */; };
+		B1000060 /* CpCpkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000060 /* CpCpkEngine.swift */; };
+		B1000061 /* OEEEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000061 /* OEEEngine.swift */; };
 		B1000070 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C1000070 /* Localizable.xcstrings */; };
 		B1000080 /* PpPpkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000080 /* PpPpkEngine.swift */; };
 		B1000081 /* ControlChartEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1000081 /* ControlChartEngine.swift */; };
@@ -134,8 +136,6 @@
 		C1000035 /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
 		C1000036 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C1000037 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
-		C1000060 /* CpCpkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkEngine.swift; sourceTree = "<group>"; };
-		C1000061 /* OEEEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEEngine.swift; sourceTree = "<group>"; };
 		C1000042 /* SigmaLevelEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelEngine.swift; sourceTree = "<group>"; };
 		C1000043 /* SampleSizeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeEngine.swift; sourceTree = "<group>"; };
 		C1000044 /* CpCpkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkViewModel.swift; sourceTree = "<group>"; };
@@ -151,6 +151,8 @@
 		C1000051 /* OEEEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEEngineTests.swift; sourceTree = "<group>"; };
 		C1000052 /* SigmaLevelEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmaLevelEngineTests.swift; sourceTree = "<group>"; };
 		C1000053 /* SampleSizeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeEngineTests.swift; sourceTree = "<group>"; };
+		C1000060 /* CpCpkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpCpkEngine.swift; sourceTree = "<group>"; };
+		C1000061 /* OEEEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OEEEngine.swift; sourceTree = "<group>"; };
 		C1000070 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C1000080 /* PpPpkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpPpkEngine.swift; sourceTree = "<group>"; };
 		C1000081 /* ControlChartEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlChartEngine.swift; sourceTree = "<group>"; };
@@ -201,6 +203,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8490C9512F45079B00A850CB /* RevenueCatUI in Frameworks */,
+				8490C9502F45079B00A850CB /* RevenueCat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +218,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D1000001 /* root */ = {
+		D1000001 = {
 			isa = PBXGroup;
 			children = (
 				D1000002 /* SPCTools */,
@@ -342,6 +346,44 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D1000009 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C1000026 /* InputFieldView.swift */,
+				C1000027 /* ResultCardView.swift */,
+				C1000028 /* CalculateButton.swift */,
+				C1000029 /* ProBadgeView.swift */,
+				C100002A /* DataInputView.swift */,
+				C1000037 /* SearchBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D100000A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C100002B /* Double+Formatting.swift */,
+				C100002C /* View+HideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D100000B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1000070 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D100000C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1000004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D100000D /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,44 +450,6 @@
 			path = FormulaReference;
 			sourceTree = "<group>";
 		};
-		D1000009 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				C1000026 /* InputFieldView.swift */,
-				C1000027 /* ResultCardView.swift */,
-				C1000028 /* CalculateButton.swift */,
-				C1000029 /* ProBadgeView.swift */,
-				C100002A /* DataInputView.swift */,
-				C1000037 /* SearchBarView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		D100000A /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				C100002B /* Double+Formatting.swift */,
-				C100002C /* View+HideKeyboard.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D100000B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C1000070 /* Localizable.xcstrings */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		D100000C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C1000004 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		D1000015 /* PpPpk */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,22 +498,6 @@
 			path = Histogram;
 			sourceTree = "<group>";
 		};
-		D100001F /* Subscription */ = {
-			isa = PBXGroup;
-			children = (
-				C10000B0 /* PaywallWrapperView.swift */,
-			);
-			path = Subscription;
-			sourceTree = "<group>";
-		};
-		D1000021 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				C10000B1 /* OnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
 		D100001B /* FMEA */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +530,14 @@
 			path = HypothesisTest;
 			sourceTree = "<group>";
 		};
+		D100001F /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				C10000B0 /* PaywallWrapperView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
 		D1000020 /* SPCToolsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +558,14 @@
 				C10000AF /* HypothesisTestEngineTests.swift */,
 			);
 			path = SPCToolsTests;
+			sourceTree = "<group>";
+		};
+		D1000021 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C10000B1 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -634,11 +638,11 @@
 				tr,
 				Base,
 			);
-			mainGroup = D1000001 /* root */;
-			productRefGroup = D1000003 /* Products */;
+			mainGroup = D1000001;
 			packageReferences = (
-				E1000001 /* purchases-ios-spm */,
+				E1000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 			);
+			productRefGroup = D1000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -904,7 +908,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"SPCTools/Preview Content\"";
 				DEVELOPMENT_TEAM = 5V9A3GUJ32;
 				ENABLE_PREVIEWS = YES;
@@ -935,7 +939,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"SPCTools/Preview Content\"";
 				DEVELOPMENT_TEAM = 5V9A3GUJ32;
 				ENABLE_PREVIEWS = YES;
@@ -965,7 +969,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 5V9A3GUJ32;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -984,7 +988,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 5V9A3GUJ32;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -1031,7 +1035,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E1000001 /* purchases-ios-spm */ = {
+		E1000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
 			requirement = {
@@ -1044,12 +1048,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		E1000002 /* RevenueCat */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E1000001 /* purchases-ios-spm */;
+			package = E1000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCat;
 		};
 		E1000003 /* RevenueCatUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E1000001 /* purchases-ios-spm */;
+			package = E1000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
 			productName = RevenueCatUI;
 		};
 /* End XCSwiftPackageProductDependency section */

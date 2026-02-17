@@ -169,7 +169,7 @@ struct OnboardingView: View {
             .padding(.horizontal, AppTheme.Spacing.extraLarge)
             .padding(.vertical, AppTheme.Spacing.extraLarge)
         }
-        .sheet(isPresented: $showPaywall) {
+        .fullScreenCover(isPresented: $showPaywall) {
             PaywallWrapperView()
         }
     }
