@@ -3,6 +3,7 @@ import RevenueCatUI
 
 struct OnboardingView: View {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @Environment(SubscriptionManager.self) private var subscriptionManager
     @State private var selection = 0
     @State private var showPaywall = false
 
@@ -171,6 +172,7 @@ struct OnboardingView: View {
         }
         .fullScreenCover(isPresented: $showPaywall) {
             PaywallWrapperView()
+                .environment(subscriptionManager)
         }
     }
 }

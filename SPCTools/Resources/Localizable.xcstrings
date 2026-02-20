@@ -2448,6 +2448,246 @@
         }
       }
     },
+    "paywall.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock All Calculators"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm Hesaplayıcıları Aç"
+          }
+        }
+      }
+    },
+    "paywall.subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access all 15 professional SPC calculators"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "15 profesyonel SPC hesaplayıcısına erişim sağlayın"
+          }
+        }
+      }
+    },
+    "paywall.feature.allCalculators" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All 15 calculators unlocked"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "15 hesap makinesinin tamamı"
+          }
+        }
+      }
+    },
+    "paywall.feature.unlimitedHistory" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlimited calculation history"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınırsız hesaplama geçmişi"
+          }
+        }
+      }
+    },
+    "paywall.feature.allSpcTools" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All SPC tools & analysis"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm SPC araçları ve analiz"
+          }
+        }
+      }
+    },
+    "paywall.feature.prioritySupport" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priority support"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öncelikli destek"
+          }
+        }
+      }
+    },
+    "paywall.plan.monthly" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monthly"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aylık"
+          }
+        }
+      }
+    },
+    "paywall.plan.yearly" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yearly"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıllık"
+          }
+        }
+      }
+    },
+    "paywall.savings %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% Savings"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%%%lld Tasarruf"
+          }
+        }
+      }
+    },
+    "paywall.cta" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try 7 Days Free"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 Gün Ücretsiz Dene"
+          }
+        }
+      }
+    },
+    "paywall.error" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata"
+          }
+        }
+      }
+    },
+    "paywall.trialDetail.yearly %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 days free trial, then %@/year. Auto-renews unless cancelled."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 gün ücretsiz deneme, ardından yıllık %@. İptal edilmedikçe otomatik yenilenir."
+          }
+        }
+      }
+    },
+    "paywall.trialDetail.monthly %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 days free trial, then %@/month. Auto-renews unless cancelled."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 gün ücretsiz deneme, ardından aylık %@. İptal edilmedikçe otomatik yenilenir."
+          }
+        }
+      }
+    },
+    "paywall.perMonth" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "monthly"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aylık"
+          }
+        }
+      }
+    },
+    "paywall.perYear" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yearly"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yıllık"
+          }
+        }
+      }
+    },
     "paywall.restore" : {
       "localizations" : {
         "en" : {

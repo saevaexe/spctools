@@ -55,6 +55,7 @@ struct HomeView: View {
         .navigationTitle(String(localized: "app.title"))
         .fullScreenCover(isPresented: $showPaywall) {
             PaywallWrapperView()
+                .environment(subscriptionManager)
         }
     }
 

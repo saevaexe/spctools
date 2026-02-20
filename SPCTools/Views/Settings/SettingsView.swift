@@ -70,6 +70,7 @@ struct SettingsView: View {
         .navigationTitle(String(localized: "tab.settings"))
         .fullScreenCover(isPresented: $showPaywall) {
             PaywallWrapperView()
+                .environment(subscriptionManager)
         }
     }
 
