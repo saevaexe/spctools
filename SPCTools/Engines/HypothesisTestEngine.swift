@@ -94,7 +94,7 @@ enum HypothesisTestEngine {
     // MARK: - Two-Sample T Test (assuming equal variances)
 
     static func twoSampleT(mean1: Double, mean2: Double, s1: Double, s2: Double, n1: Int, n2: Int, alpha: Double, alternative: Alternative) -> TestResult {
-        guard n1 > 1, n2 > 1, s1 > 0 || s2 > 0 else {
+        guard n1 > 1, n2 > 1, s1 > 0, s2 > 0 else {
             return TestResult(testStatistic: 0, pValue: 1, reject: false, conclusion: "")
         }
 

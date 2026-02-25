@@ -14,7 +14,7 @@ final class SampleSizeViewModel {
     var isValid: Bool {
         guard let margin = parseDouble(marginOfErrorText),
               let prop = parseDouble(proportionText) else { return false }
-        return margin > 0 && margin < 1 && prop > 0 && prop <= 1
+        return margin > 0 && margin < 1 && prop > 0 && prop < 1
     }
 
     func calculate() {

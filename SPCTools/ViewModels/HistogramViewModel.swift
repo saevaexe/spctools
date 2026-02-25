@@ -23,7 +23,7 @@ final class HistogramViewModel {
         let record = CalculationRecord(
             category: .histogram,
             title: String(localized: "category.histogram"),
-            inputSummary: "\(r.count) data points",
+            inputSummary: String(localized: "histogram.history.input \(r.count)"),
             resultSummary: "μ=\(r.mean.formatted2), σ=\(r.standardDeviation.formatted2)"
         )
         modelContext.insert(record)
@@ -34,7 +34,7 @@ final class HistogramViewModel {
     }
 
     private func parseData(_ text: String) -> [Double] {
-        text.components(separatedBy: CharacterSet(charactersIn: ",;\n "))
+        text.components(separatedBy: CharacterSet(charactersIn: ";\n "))
             .compactMap { Double($0.trimmingCharacters(in: .whitespaces).replacingOccurrences(of: ",", with: ".")) }
     }
 }

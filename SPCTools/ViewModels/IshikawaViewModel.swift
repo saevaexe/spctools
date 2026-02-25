@@ -38,7 +38,7 @@ final class IshikawaViewModel {
             category: .ishikawa,
             title: String(localized: "category.ishikawa"),
             inputSummary: d.problem,
-            resultSummary: "\(total) causes in 6 categories"
+            resultSummary: String(localized: "ishikawa.history.result \(total)")
         )
         modelContext.insert(record)
     }

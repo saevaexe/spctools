@@ -27,14 +27,17 @@ final class HypothesisTestViewModel {
         switch testType {
         case .oneSampleZ:
             return parseDouble(sampleMeanText) != nil && parseDouble(mu0Text) != nil
-                && parseDouble(sigmaText) != nil && Int(nText) != nil
+                && parseDouble(sigmaText).map({ $0 > 0 }) == true
+                && (Int(nText) ?? 0) > 0
         case .oneSampleT:
             return parseDouble(sampleMeanText) != nil && parseDouble(mu0Text) != nil
-                && parseDouble(sampleStdDevText) != nil && Int(nText) != nil
+                && parseDouble(sampleStdDevText).map({ $0 > 0 }) == true
+                && (Int(nText) ?? 0) > 1
         case .twoSampleT:
             return parseDouble(sampleMeanText) != nil && parseDouble(mean2Text) != nil
-                && parseDouble(sampleStdDevText) != nil && parseDouble(s2Text) != nil
-                && Int(nText) != nil && Int(n2Text) != nil
+                && parseDouble(sampleStdDevText).map({ $0 > 0 }) == true
+                && parseDouble(s2Text).map({ $0 > 0 }) == true
+                && (Int(nText) ?? 0) > 1 && (Int(n2Text) ?? 0) > 1
         }
     }
 
@@ -70,7 +73,7 @@ final class HypothesisTestViewModel {
             category: .hypothesisTest,
             title: String(localized: "category.hypothesisTest"),
             inputSummary: "\(testType.rawValue), α=\(alphaText)",
-            resultSummary: "p=\(r.pValue.formatted2), \(r.reject ? "Reject" : "Fail to reject")"
+            resultSummary: "p=\(r.pValue.formatted2), \(r.reject ? String(localized: "hypothesis.reject") : String(localized: "hypothesis.failToReject"))"
         )
         modelContext.insert(record)
     }

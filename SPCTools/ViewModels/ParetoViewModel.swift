@@ -27,8 +27,8 @@ final class ParetoViewModel {
         let record = CalculationRecord(
             category: .pareto,
             title: String(localized: "category.pareto"),
-            inputSummary: "\(items.count) categories",
-            resultSummary: "Vital few: \(vitalFewItems.count)"
+            inputSummary: String(localized: "pareto.history.input \(items.count)"),
+            resultSummary: String(localized: "pareto.history.result \(vitalFewItems.count)")
         )
         modelContext.insert(record)
     }
@@ -47,5 +47,6 @@ final class ParetoViewModel {
     private func parseCounts(_ text: String) -> [Int] {
         text.components(separatedBy: CharacterSet(charactersIn: ",;\n "))
             .compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
+            .filter { $0 >= 0 }
     }
 }

@@ -61,7 +61,7 @@ final class GageRRViewModel {
     }
 
     private func parseData(_ text: String) -> [Double] {
-        text.components(separatedBy: CharacterSet(charactersIn: ",;\n "))
+        text.components(separatedBy: CharacterSet(charactersIn: ";\n "))
             .compactMap { Double($0.trimmingCharacters(in: .whitespaces).replacingOccurrences(of: ",", with: ".")) }
     }
 }

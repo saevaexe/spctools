@@ -39,7 +39,7 @@ final class FMEAViewModel {
         let record = CalculationRecord(
             category: .fmea,
             title: String(localized: "category.fmea"),
-            inputSummary: "\(items.count) failure modes",
+            inputSummary: String(localized: "fmea.history.input \(items.count)"),
             resultSummary: "Max RPN: \(maxRPN)"
         )
         modelContext.insert(record)
